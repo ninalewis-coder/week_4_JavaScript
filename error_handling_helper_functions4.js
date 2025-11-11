@@ -1,7 +1,7 @@
 // TODO: Create a function that validates user input
 function validateUserInput(name, age) {
     if (typeof name !== "string" || name.trim() === "") {
-        console.log(" Invalid name. It must be a non-empty string.");
+        console.log("Invalid name. It must be a non-empty string.");
         return false;
     }
 
